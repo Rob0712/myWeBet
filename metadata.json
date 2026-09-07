@@ -1,0 +1,6 @@
+{
+  "name": "WeBet P2P Sports Betting",
+  "description": "Peer-to-peer sports prediction platform featuring 100:100 Open Bet Cards, 10% vig economy, 1-week match scheduling, admin winner approvals, and a weekly prize raffle module where players redeem points for physical & digital goods with admin provably-fair winner drawing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

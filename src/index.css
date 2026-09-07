@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sora: 'Sora', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+  
+  body {
+    font-family: var(--font-sora);
+    background-color: #0E0E0F;
+    color: #F3F4F6;
+  }
+}
+
+/* Custom scrollbar for betting slips and data tables */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #131314;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2A2A2E;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF0000;
+}
+
+/* Apex Redline Design Accents */
+.redline-glow {
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.35);
+}
+
+.gold-glow {
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.35);
+}
+
+.subtle-border {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.card-gradient {
+  background: linear-gradient(180deg, #18181B 0%, #121214 100%);
+}
+
+.tab-active {
+  position: relative;
+}
+
+.tab-active::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #FF0000;
+  box-shadow: 0 0 8px #FF0000;
+}
+
